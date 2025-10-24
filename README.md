@@ -4,15 +4,14 @@
 This repository contains all codes and (sample) dataset of the paper - 
 ***Improved Equity of U.S. Public Electric Vehicle Charger System with Geospatial Disparities***.  
 
-**Authors:** Ruichen Ma# , Xingjun Huang# , Xiong Yang, Mingjia He, Justin Hayse, Chiwing G. Tang, Binru Wei, Chengxiang Zhuge*  
+**Authors:** Ruichen Ma# , Xingjun Huang# , Xiong Yang, Mingjia He, Justin Hayse Chiwing G. Tang, Binru Wei, Chengxiang Zhuge*  
 
 \# Co-first authors, * Corresponding author  
 
 Note that the **full dataset** can be requested through our [Global EV Data Initiative](https://globalevdata.github.io/data.html).
 
 # Requirements and Installation
-The whole analysis-related codes (except for some data collection codes in the dir `./codes/data_collection/...`) 
-should run with a **Python** environment, regardless of operating systems theoretically. 
+The whole calculation- and analysis-related codes should run with a **Python** environment, regardless of operating systems theoretically. 
 We successfully execute all the codes in both Windows (Win10, Win11) machines and a macOS (Sequoia 15.2) machine.
 More detailed info is as below:
 
