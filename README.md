@@ -2,7 +2,7 @@
 
 # Overview
 This repository contains all codes and (sample) dataset of the paper - 
-***Improved Equity of U.S. Public Electric Vehicle Charger System with Geospatial Disparities***. 
+***Improved Equity of U.S. Public Electric Vehicle Charger System with Geospatial Disparities***.  
 **Authors:** Ruichen Ma, Xingjun Huang, Xiong Yang, Mingjia He, Justin Hayse, Chiwing G. Tang, Binru Wei, Chengxiang Zhuge
 
 Note that the **full dataset** can be requested through our [Global EV Data Initiative](https://globalevdata.github.io/data.html).
