@@ -21,3 +21,12 @@ It is highly recommended to install and use the following versions of python/pac
 - ``scipy``: 1.13.1
 - ``geopandas``: 1.0.1
 - ``pyproj``: 3.7.1
+
+# Contact
+- Leave questions in [Issues on GitHub](https://github.com/Ruichen-giser/US-accessibility/issues)
+- Get in touch with the Corresponding Author: [Dr. Chengxiang Zhuge](mailto:chengxiang.zhuge@polyu.edu.hk)
+or visit our research group website: [The TIP](https://thetipteam.editorx.io/website) for more information
+
+# License
+This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
