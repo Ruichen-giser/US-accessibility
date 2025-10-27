@@ -29,6 +29,10 @@ if __name__ == "__main__":
         
         # usa boundary
         geojson_path = current_dir.parent.parent / 'data' /'US-map'/ 'usa_map.geojson'
+
+        # U.S. boundary: rural-->rural_countries; urban-->urban_countries
+        #geojson_path = current_dir.parent.parent / 'data' /'US-map'/ 'rural_countries.geojson'
+        #geojson_path = current_dir.parent.parent / 'data' /'US-map'/ 'urban_countries.geojson' # urban boundaries
         
         # fix tiff year if beyond 2020 as Worldpop supports data before 2021.
         tiff_year = min(year, 2020)
@@ -65,5 +69,6 @@ if __name__ == "__main__":
                                                     year=year,
                                                     method='m2sfca'
                                                     )
+
 
 
