@@ -8,11 +8,10 @@ This repository contains all codes and (sample) dataset of the paper -
 
 \# Co-first authors, * Corresponding author  
 
-Note that the **full dataset** can be requested through our [Global EV Data Initiative](https://globalevdata.github.io/data.html).
+**Note:** Some data files are too large to upload to GitHub. Only a sample dataset is provided here. The **full dataset** can be requested separately through our [Global EV Data Initiative](https://globalevdata.github.io/data.html).
 
 # Requirements and Installation
 The whole calculation- and analysis-related codes should run with a **Python** environment, regardless of operating systems theoretically. 
-We successfully execute all the codes in both Windows (Win10, Win11) machines and a macOS (Sequoia 15.2) machine.
 More detailed info is as below:
 
 ## Prerequisites 
@@ -24,6 +23,29 @@ It is highly recommended to install and use the following versions of python/pac
 - ``scipy``: 1.13.1
 - ``geopandas``: 1.0.1
 - ``pyproj``: 3.7.1
+- ``time``: 3.12.7
+
+## Project Structure
+├── code
+│ ├── code_facility_acc/ # Code for facility-based accessibility and equity calculation
+│ ├── code_population_acc/ # Code for population-based accessibility and equity calculation
+│ └── code_visualization/ # Code for visualization
+│
+├── data # Full dataset for facility-based analysis (too large for GitHub)
+│ ├── US-accessibility
+│ │ ├── facility-based/ # Dataset for acc analysis by facility
+│ │ └── population-based/ # Dataset for acc analysis by population
+│ │
+│ ├── US-equity 
+│ │ ├── facility-based/ # Dataset for equity analysis by facility
+│ │ └── population-based/ # Dataset for equity analysis by population
+│ │
+│ ├── US-EV-Station-2014-2024/ # Historical EV charging station data
+│ ├── US-map/ # US map GeoJSONs
+│ ├── US-poi-2014-2024/ # Points of Interest data
+│ └── US-WorldPOP-2014-2020/ # Population raster data
+│
+└── sample data/ # Small sample datasets for testing and demonstration (i.e. L.A., U.S.)
 
 # Contact
 - Leave questions in [Issues on GitHub](https://github.com/Ruichen-giser/US-accessibility/issues)
