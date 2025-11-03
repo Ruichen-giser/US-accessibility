@@ -25,13 +25,13 @@ It is highly recommended to install and use the following versions of python/pac
 - ``pyproj``: 3.7.1
 - ``time``: 3.12.7
 
-## Project Structure
+## Project Structure  
 ├── code  
 │ ├── code_facility_acc/ # Code for facility-based accessibility and equity calculation  
 │ ├── code_population_acc/ # Code for population-based accessibility and equity calculation  
 │ └── code_visualization/ # Code for visualization  
 │  
-├── data # Full dataset for facility-based analysis (too large for GitHub)  
+├── data # Full dataset for U.S. analysis (too large for GitHub)  
 │ ├── US-accessibility  
 │ │ ├── facility-based/ # Dataset for acc analysis by facility  
 │ │ └── population-based/ # Dataset for acc analysis by population  
