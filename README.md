@@ -26,12 +26,12 @@ It is highly recommended to install and use the following versions of python/pac
 - ``time``: 3.12.7
 
 ## Project Structure  
-├── code  
+├── **code**  
 │ ├── code_facility_acc/ # Code for facility-based accessibility and equity calculation  
 │ ├── code_population_acc/ # Code for population-based accessibility and equity calculation  
 │ └── code_visualization/ # Code for visualization  
 │  
-├── data # Full dataset for U.S. analysis (too large for GitHub)  
+├── **data** # Full dataset for U.S. analysis (too large for GitHub)  
 │ ├── US-accessibility  
 │ │ ├── facility-based/ # Dataset for acc analysis by facility  
 │ │ └── population-based/ # Dataset for acc analysis by population  
@@ -45,8 +45,19 @@ It is highly recommended to install and use the following versions of python/pac
 │ ├── US-poi-2014-2024/ # Points of Interest data  
 │ └── US-WorldPOP-2014-2020/ # Population raster data  
 │  
-└── sample data/ # Small sample datasets for testing and demonstration (i.e. L.A., U.S.)  
+└── **sample data** # Small sample datasets for testing and demonstration (i.e. L.A., U.S.)  
 
+## Sample Data Testing
+
+Two Python scripts are provided for testing the project using small sample datasets (located in the `sample data/` folder). The paths in the scripts are already set up, so you can download the sample data and run the scripts directly:
+
+- `code/code_facility_acc/main_poi_sample_data.py`  
+  - Tests the **facility-based accessibility and equity** calculations using sample data from Los Angeles (U.S.).
+
+- `code/code_population_acc/main_sample_data.py`  
+  - Tests the **population-based accessibility and equity** calculations using sample data from Los Angeles (U.S.).
+
+  
   
 # Contact
 - Leave questions in [Issues on GitHub](https://github.com/Ruichen-giser/US-accessibility/issues)
