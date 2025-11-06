@@ -176,8 +176,17 @@ def convert_to_geoparquet(input_parquet, output_geoparquet,
 
 if __name__ == "__main__":
     
+    """
+    This section contains four code blocks:
+        1.Rasterize the U.S. boundary into a 1×1 km grid.
+        2.Extract each year’s POI data from Foursquare and save as GeoParquet.
+        3.For each year’s POI data, perform data cleaning by class: split one case into one or more cases based on class.
+        4.For each year’s POI data, perform data cleaning by purpose: split one case into one or more cases based on purpose.
+    """
+    
+    
     # -------------------------------------------------------------------------------------------------------------
-    # Divide the U.S. boundary map into 1 km × 1 km grid cells
+    # Rasterize the U.S. boundary into a 1×1 km grid.
     # -------------------------------------------------------------------------------------------------------------
     # main.py directory
     current_dir = Path(__file__).resolve().parent
@@ -214,7 +223,7 @@ if __name__ == "__main__":
 
 
     # ---------------------------------------------------------------------------------------------------------------
-    # Extract POI data for each year
+    # Extract each year’s POI data from Foursquare and save as GeoParquet.
     # -------------------------------------------------------------------------------------------------------------
     # Specify the directory containing Parquet files
     directory_path = current_dir.parent.parent / 'data'   # Replace with your actual path
